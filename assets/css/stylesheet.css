@@ -6,3 +6,11 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+nav {
+    backdrop-filter: blur(6px);
+}
+
+navbar .navbar .navbar-nav .nav-link, .navbar-brand {
+    color: #ffffff;
+}
