@@ -22,29 +22,29 @@
 </head>
 
 <body>
-    <!-- NavBar must stay -->
-    <navbar>
-        <nav class="navbar fixed-top navbar-expand-lg justify-content-en">
-            <div class="container">
-              <a class="navbar-brand d-inline-block align-text-top" href="#"><img src="assets/img/viajes.svg" alt="plane flying globally icon" width="30" height="24">Viajes Chile</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
-                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                  <a class="nav-link" href="#">Quienes somos</a>
-                  <a class="nav-link" href="#">Destacados</a>
-                  <a class="nav-link" href="#">Contactos</a>
-                </div>
+  <!-- NavBar must stay -->
+  <navbar>
+    <nav class="navbar fixed-top navbar-expand-lg justify-content-en">
+      <div class="container">
+        <a class="navbar-brand d-inline-block align-text-top" href="#"><img src="assets/img/viajes.svg" alt="plane flying globally icon" width="30" height="24">Viajes Chile</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link" href="#">Quienes somos</a>
+                <a class="nav-link" href="#">Destacados</a>
+                <a class="nav-link" href="#">Contactos</a>
               </div>
             </div>
-          </nav>
-    </navbar>
+      </div>
+    </nav>
+  </navbar>
 
-    <!-- Images Carousel Section -->
-    <header>
-        <div id="carousel-Landscapes" class="carousel slide">
+  <!-- Images Carousel Section -->
+  <header>
+    <div id="carousel-Landscapes" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="picture of Andean highlands volcanoes and wildlife">
@@ -64,27 +64,29 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-        </div>
-      </header>
+    </div>
+  </header>
 
-    <!-- Introduction Section -->
-    <section>
-            <div class="row container">
-              <h1>¿Quiénes somos?</h1>
-                <div class="col">
+  <!-- Introduction Section -->
+  <section>
+    <div class="container">
+            <h1>¿Quiénes somos?</h1>
+            <div class="row">
+              <div class="col">
                     <p></p>
-                </div>
-                <div class="col">
-                    <p></p>
-                </div>
-                <div class="col"></div>
-            </div>
-    </section>
+              </div>
+              <div class="col">
+              <p></p>
+              </div>
+              <div class="col"></div>
+          </div>
+    </div>
+  </section>
 
-    <!-- Highlights Section -->
-    <section>
-        <div>
-            <div class="row container">
+  <!-- Highlights Section -->
+  <section>
+        <div class="container">
+            <div class="row">
               <h1>Destacados</h1>
               <div class="col col-sm-6 col-md-3">
                     <div class="card h-100">
@@ -124,10 +126,11 @@
               </div>
             </div>
         </div>
-    </section>
+  </section>
 
-    <!-- Contacts Form Section -->
-    <section>
+  <!-- Contacts Form Section -->
+  <section>
+    <div class="container">
         <h1>Contacto</h1>
         <form>
             <div class="mb-3">
@@ -145,23 +148,24 @@
             </div>
             <button type="enviar" class="btn btn-info">Enviar</button>
           </form>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="container-fluid">
-      <div class="row">
-        <div class="col d-flex justify-content-center py-3">
-          <h1>Viajes Chile</h1>
+  <!-- Footer -->
+  <footer>
+    <div id="container-footer" class="container-fluid">
+        <div class="row">
         </div>
-        <div>
-        <div class="col">
-          <i class="fa-brands fa-square-github"></i>
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-square-x-twitter"></i>
-          <i class="fa-brands fa-square-facebook"></i>
-        </div>
+        <div class="d-flex flex-column flex-sm-row text-bg-info justify-content-between pt-2 mt-4">
+          <p>Viajes Chile</p>
+          <ul class="list-unstyled d-flex">
+            <li class="fa-brands fa-square-github ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="fa-brands fa-linkedin ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="fa-brands fa-square-x-twitter ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            <li class="fa-brands fa-square-facebook ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
         </div>
     </div>
-    </footer>
+  </footer>
 </body>
 </html>
